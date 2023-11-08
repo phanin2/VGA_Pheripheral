@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DisplayChars",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DisplayChars.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DisplayChars.elf-Debug-6f9eacc5e8cee6391aec.json",
+					"name" : "DisplayChars.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/VGA_Display/build",
+		"source" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/VGA_Display"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
