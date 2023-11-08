@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\imgtec\catapult-sdk_1.8.1\build\bin\cmake.exe" --regenerate-during-build -SC:\Users\Student\OneDrive\Documents\Fall_2023\SoC\P2\Applications\VGA-Peripheral\VGA_Display -BC:\Users\Student\OneDrive\Documents\Fall_2023\SoC\P2\Applications\VGA-Peripheral\VGA_Display\build
+  command = "C:\Program Files\imgtec\catapult-sdk_1.8.1\build\bin\cmake.exe" --regenerate-during-build -SC:\Users\Student\OneDrive\Documents\Fall_2023\SoC\P2\VGA_Pheripheral -BC:\Users\Student\OneDrive\Documents\Fall_2023\SoC\P2\VGA_Pheripheral\build
   description = Re-running CMake...
   generator = 1
 

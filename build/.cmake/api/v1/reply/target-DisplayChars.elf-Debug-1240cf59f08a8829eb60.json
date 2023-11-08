@@ -22,7 +22,7 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/Common.cmake"
+			"common/Common.cmake"
 		],
 		"nodes" : 
 		[
@@ -221,15 +221,15 @@
 			[
 				{
 					"backtrace" : 17,
-					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common"
+					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral/common"
 				},
 				{
 					"backtrace" : 18,
-					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/ee_printf"
+					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral/common/ee_printf"
 				},
 				{
 					"backtrace" : 19,
-					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/drivers/uart/RVfpga"
+					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral/common/drivers/uart/RVfpga"
 				},
 				{
 					"backtrace" : 19,
@@ -237,7 +237,7 @@
 				},
 				{
 					"backtrace" : 20,
-					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/drivers/uart"
+					"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral/common/drivers/uart"
 				}
 			],
 			"language" : "C",
@@ -317,19 +317,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/drivers/uart/uart_send_char.c",
+			"path" : "common/drivers/uart/uart_send_char.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 21,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/ee_printf/ee_printf.c",
+			"path" : "common/ee_printf/ee_printf.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 22,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/common/drivers/uart/RVfpga/config_uart.c",
+			"path" : "common/drivers/uart/RVfpga/config_uart.c",
 			"sourceGroupIndex" : 0
 		}
 	],

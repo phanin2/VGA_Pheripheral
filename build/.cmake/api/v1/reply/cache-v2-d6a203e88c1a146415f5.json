@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/VGA_Display/build"
+			"value" : "c:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -463,7 +463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/VGA_Display"
+			"value" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -999,7 +999,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/VGA_Display/build"
+			"value" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral/build"
 		},
 		{
 			"name" : "DisplayChars_SOURCE_DIR",
@@ -1011,7 +1011,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/Applications/VGA-Peripheral/VGA_Display"
+			"value" : "C:/Users/Student/OneDrive/Documents/Fall_2023/SoC/P2/VGA_Pheripheral"
 		},
 		{
 			"name" : "LDGEN",
