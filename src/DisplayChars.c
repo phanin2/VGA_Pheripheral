@@ -3,7 +3,7 @@
 #
 # SOLUTION CODE
 #
-# Author:	Phanindra Reddy Vemireddy (phanin2@pdx.edu)
+# Author:	Phanindra Reddy Vemireddy (phanin2@pdx.edu), Bhavani Gunda (gunda@pdx.edu)
 # Date:		08-Nov-2023	
 #
 #
@@ -30,6 +30,8 @@
 int main ( void )
 {
     int GPIO_En_Value=0xFFFF, switches_value;
+    int row, column, data_reg, addr_reg;
+    int data_ascii;
 
     WRITE_REG(GPIO_INOUT, GPIO_En_Value);
 
@@ -41,9 +43,16 @@ int main ( void )
        
         switches_value = switches_value >> 16;
         WRITE_REG(GPIO_LEDs, switches_value);           // Write to LEDs
-
+        data = 1;
+        data_ascii = data + '0';
+        row = ROW_OFFSET;
+        column = COLUMN_OFFSET;
+        addr_reg = (addr_reg & ~ROW_MASK) | (row << 10);
+        addr_reg = (addr_reg & ~COLUMN_MASK) | (column << 10);
+        WRITE_REG (VGA_ADDR, addr_reg);
+        WRITE_REG (VGA_DATA, data_ascii);
         //Delay 
-        // for (int i=0;i<500000;i++){};
+        for (int i=0;i<500000;i++){};
 
     }
 

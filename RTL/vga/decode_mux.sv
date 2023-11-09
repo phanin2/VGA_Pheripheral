@@ -1,9 +1,9 @@
 // https://github.com/shirriff/vga-fpga-fizzbuzz/blob/master/src/chars.v
 
-module chars(
-    input [3:0] decimal,
-    input [3:0] bitmap_row,
-    output reg [7:0] bitmap
+module decode_mux(
+    input logic [3:0] decimal,
+    input logic [3:0] bitmap_row_index,
+    output logic [7:0] bitmap_row
     );
 
 always @(*)
