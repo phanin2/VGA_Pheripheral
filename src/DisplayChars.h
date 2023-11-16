@@ -20,8 +20,8 @@
 #define COLUMN_MASK    0x000003FF
 
 #define ROW_INITAL 50
-#define ROW_FINAL 640
+#define ROW_FINAL 480
 #define ROW_OFFSET 25
 #define COLUMN_INITAL 125
 #define COLUMN_OFFSET 25
-#define COLUMN_FINAL 480
+#define COLUMN_FINAL 640

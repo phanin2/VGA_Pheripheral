@@ -30,7 +30,7 @@
 int main ( void )
 {
     int GPIO_En_Value=0xFFFF, switches_value;
-    int row, column, data_reg, addr_reg= 0 , data, num = 0;
+    int row, column, data_reg, addr_reg= 0, addr_reg2 , data, num = 0;
     // int data_ascii;
     int addr_check, data_check;
 
@@ -53,19 +53,21 @@ int main ( void )
         while (row < ROW_FINAL) { 
             column = COLUMN_INITAL;
             addr_reg = (addr_reg & ~COLUMN_MASK) | (column);
+            addr_reg2 = (addr_reg & ~COLUMN_MASK) | (column+10);
 
             while (column < COLUMN_FINAL) {
 
                 for (int i=0;i<150000;i++) {
                     WRITE_REG (VGA_ADDR, addr_reg);
                     WRITE_REG (VGA_DATA, (0 + '0'));
-                    
-                    addr_reg = (addr_reg & ~COLUMN_MASK) | (column+10);
-                    WRITE_REG (VGA_ADDR, addr_reg);
-                    WRITE_REG (VGA_DATA, (1 + '0'));
+                    // for (int j=0;j<1;j++) {}
+                    // WRITE_REG (VGA_ADDR, addr_reg2);
+                    // WRITE_REG (VGA_DATA, (1 + '0'));
+                    // for (int k=0;k<1;k++) {}
                 }  
                 column = column + COLUMN_OFFSET;
                 addr_reg = (addr_reg & ~COLUMN_MASK) | (column);
+                addr_reg2 = (addr_reg & ~COLUMN_MASK) | (column+10);
             }
             row = row + ROW_OFFSET;  
             addr_reg = (addr_reg & ~ROW_MASK) | (row << 10);
