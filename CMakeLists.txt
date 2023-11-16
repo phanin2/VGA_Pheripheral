@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.17)
 
-project(DisplayChars C)
+project(Wallpaper C)
 
-set(SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/src/DisplayChars.c
+set(SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/src/Wallpaper.c
     ${CMAKE_CURRENT_SOURCE_DIR}/common/drivers/uart/uart_send_char.c)
-set(TARGET_NAME DisplayChars.elf)
+set(TARGET_NAME Wallpaper.elf)
 
 option(CUSTOM_UART "Use a custom uart_send_char()" ON)
 

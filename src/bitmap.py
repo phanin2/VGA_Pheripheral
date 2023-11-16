@@ -12,8 +12,8 @@ data = [[0x00, 0x3c, 0x66, 0xc3, 0xe3, 0xf3, 0xdb, 0xcf, 0xc7, 0xc3, 0x66, 0x3c]
 for i in range(10):
     print('// ' + str(i))
     for j in range(12):
-        bdata=format(data[i][11-j], '08b')
+        bdata=format(data[i][j], '08b')
         idata = format(i*16+j, '08b')
-        print('8\'b' + idata +': ' + 'pixels = ' + '8\'b' + bdata)
+        print('8\'b' + idata +': ' + 'pixels = ' + '8\'b' + bdata + ';')
         # print(idata)
     print("\n")
